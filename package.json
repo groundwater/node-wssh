@@ -1,0 +1,17 @@
+{
+  "name": "wssh",
+  "version": "0.0.0",
+  "description": "Websocket shell server and client",
+  "author": "Jacob Groundwater <groundwater@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "~0.4.31",
+    "pty.js": "~0.2.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bin": {
+    "wssh": "wssh.js"
+  }
+}
