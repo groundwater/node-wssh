@@ -20,6 +20,8 @@ wssh $SERVER
 
 ## NodeOS Install
 
+<a href="http://nodeos.github.io"><img src="http://i.imgur.com/pIJu2TS.png" width=200 height=79/></a>
+
 **Run the Server**
 ```
 npkg install wssh
