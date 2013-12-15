@@ -3,6 +3,9 @@
 > Websocket Shell Server and Client
 > Like SSH but over HTTP
 
+Starts [nsh](https://github.com/jacobgroundwater/node-bin-nsh) by default,
+so you should probably install that `npm i -g bin-nsh` or change the shell in the source.
+
 ## Install
 
 **Server Install**
@@ -39,6 +42,7 @@ wssh $SERVER
 1. no authentication
 2. poor error handling
 3. no tests
+4. remote shell is hard-coded
 
 ## Roadmap
 
