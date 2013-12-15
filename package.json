@@ -6,7 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "ws": "~0.4.31",
-    "pty.js": "~0.2.3"
+    "pty.js": "~0.2.3",
+    "optimist": "~0.6.0"
   },
   "scripts": {
     "start": "node server.js"
