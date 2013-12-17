@@ -39,10 +39,11 @@ wssh $SERVER
 
 ## Version 0 Anti-Features
 
-1. no authentication
-2. poor error handling
-3. no tests
-4. remote shell is hard-coded
+1. no https
+2. no authentication
+3. poor error handling
+4. no tests
+5. remote shell is hard-coded
 
 ## Roadmap
 
