@@ -5,9 +5,10 @@
   "author": "Jacob Groundwater <groundwater@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ws": "~0.4.31",
+    "bin-nsh": "^0.4.0",
+    "optimist": "~0.6.0",
     "pty.js": "~0.2.3",
-    "optimist": "~0.6.0"
+    "ws": "~0.4.31"
   },
   "scripts": {
     "start": "node server.js"

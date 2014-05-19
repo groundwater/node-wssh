@@ -4,8 +4,8 @@ var WebSocketServer = require('ws').Server;
 var wss             = new WebSocketServer({port: 9999});
 
 wss.on('connection', function(ws) {
-  
-  var term = pty.spawn('nsh', [], {
+
+  var term = pty.spawn( __dirname + '/node_modules/.bin/nsh', [], {
     name: 'xterm-color',
     cols: 80,
     rows: 30,

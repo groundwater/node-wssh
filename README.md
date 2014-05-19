@@ -21,9 +21,9 @@ npm i -g wssh
 wssh $SERVER
 ```
 
-## NodeOS Install
+## node-os Install
 
-<a href="http://nodeos.github.io"><img src="http://i.imgur.com/pIJu2TS.png" width=200 height=79/></a>
+<a href="http://node-os.github.io"><img src="http://i.imgur.com/pIJu2TS.png" width=200 height=79/></a>
 
 **Run the Server**
 ```
